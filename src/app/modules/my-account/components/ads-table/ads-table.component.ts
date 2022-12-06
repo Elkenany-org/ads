@@ -88,11 +88,9 @@ export class AdsTableComponent implements OnInit, AfterViewInit {
             this.toasterService.stopLoading();
             this.toasterService.showSuccess('تم تنفيذ العملية بنجاح');
             location.reload();
-            console.log(res);
           }, (error) => {
             this.toasterService.stopLoading();
             this.toasterService.showFail(error?.error?.error);
-            console.log(error);
           }
         );
       }

@@ -39,7 +39,7 @@
                     *ngIf="element!.status === 1 || element!.status ===  3"
                     class="table__actions">{{element!.status | getStatus}}
             </button>
-            <span *ngIf="element!.status ===  0 || element!.status ===  2">{{element!.status | getStatus}}</span>
+            <span *ngIf="element!.status ===  0 || element!.status ===  2 || element!.status ===  4">{{element!.status | getStatus}}</span>
           </td>
         </ng-container>
         <!-- type Column -->

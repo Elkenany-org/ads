@@ -48,7 +48,7 @@ export class MyAccountPageComponent implements OnInit {
         });
       } else {
         this.appService.GetCompaniesAndPlaces().subscribe((res) => {
-          console.log(res);
+          // console.log(res);
           this.AllCompanies = res?.data?.companies as Company[];
           this.SelectedCompany = this.AllCompanies[0];
           this.GetAllAds(this.AllCompanies[0]?.id);

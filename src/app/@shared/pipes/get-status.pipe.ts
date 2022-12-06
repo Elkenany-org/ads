@@ -20,6 +20,9 @@ export class GetStatusPipe implements PipeTransform {
         case '3': {
           return 'غير نشط';
         }
+        case '4': {
+          return 'محذوف';
+        }
       }
     }
     return '';
