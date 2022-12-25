@@ -35,11 +35,11 @@ export const TypePlaceData: {
     type: 'ships'
   }
   ,
-  {
-    name: 'الوظائف',
-    type: 'jobs'
-  }
-  ,
+  // {
+  //   name: 'الوظائف',
+  //   type: 'jobs'
+  // }
+  // ,
   {
     name: 'المناقصات',
     type: 'tenders'
