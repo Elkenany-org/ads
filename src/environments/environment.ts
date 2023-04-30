@@ -6,8 +6,8 @@ import { EnvConfig } from './env-config.interface';
 
 export const environment: EnvConfig = {
   production: false,
-  // ApiUrl: 'https://admin.elkenany.com/api',
-  ApiUrl: 'http://localhost/laravel/api',
+  ApiUrl: 'https://admin.elkenany.com/api',
+  // ApiUrl: 'http://localhost/laravel/api',
 
 };
 
